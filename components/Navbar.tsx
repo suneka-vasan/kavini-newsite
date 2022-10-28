@@ -14,7 +14,6 @@ import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 
 function Navbar() {
     const { isOpen, onOpen, onClose } = useDisclosure()
-    const btnRef = React.useRef()
 
     return (
         <>
@@ -63,7 +62,7 @@ function Navbar() {
                 </Flex>
                 <Spacer />
                 <Flex justifyContent="flex-end">
-                    <IconButton ref={btnRef} onClick={onOpen}
+                    <IconButton onClick={onOpen}
                         aria-label="Open Menu"
                         color='#DDAC66'
                         bgColor='transparent'
@@ -79,7 +78,6 @@ function Navbar() {
                 isOpen={isOpen}
                 placement='left'
                 onClose={onClose}
-                finalFocusRef={btnRef}
             >
                 <DrawerOverlay />
                 <DrawerContent>
