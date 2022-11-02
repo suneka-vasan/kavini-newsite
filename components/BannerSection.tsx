@@ -1,25 +1,24 @@
-import { Image, Box, Text, Heading } from "@chakra-ui/react"
+import { Image, Box, Text, Heading, Flex } from "@chakra-ui/react"
 import PrimaryButtonLg from '../components/PrimaryButtonLg'
 
 function BannerSection() {
     return (
         <Box>
-            <Box
-                className="responsive-img"
-                pos={"relative"}
+            <Flex
+                align={"center"}
                 h={{ base: 400, md: 614 }}
                 style={{
                     backgroundImage: 'url(/Banner_1.jpg)',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
-                    width: "100%",
+                    width: 'container.xl',
                 }} >
-                <Box pos={"absolute"} top={{ base: 28, md: 72 }} left={{ base: 10, md: 80 }} className="Bannertext">
+                <Box className="Bannertext" ml={{ base: 10, md: 80 }}>
                     <Text color="#033303" pb={0}>Weekend Sale!</Text>
                     <Heading color="#033303" pb={5}>Discover Spring Collection</Heading>
                     <PrimaryButtonLg title='Shop Now' path='/about' />
                 </Box>
-            </Box>
+            </Flex>
         </Box >
     )
 }
