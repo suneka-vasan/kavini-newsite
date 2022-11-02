@@ -19,7 +19,7 @@ function Newsletter() {
                         <Box w='100%' textAlign='center'>
                             Get updates about our new products and 10% discount on first order.
                             <FormControl isRequired>
-                                <Input type='email' placeholder='Email address' w={{ base: 'full', md: '30%' }} my='10' />
+                                <Input type='email' placeholder='Email address' w={{ base: 'full', md: '30%' }} my='10' borderColor='#C99035' />
                             </FormControl>
                             <PrimaryButtonLg title='Subscribe' path='/about' />
                         </Box>

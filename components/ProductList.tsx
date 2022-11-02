@@ -8,7 +8,7 @@ function Product_1() {
             {productitems.map((data, key) => {
                 return (
                     <div key={key}>
-                        <Box p='5' bg='white'>
+                        <Box p='5' bg='white' mx={{ base: "5", md: "0" }}>
                             <Flex alignItems="center" justifyContent="center" flexFlow={{ base: "column", md: "row" }} >
                                 <Image alt=' ' src={data.img} width='163' height='136' mr='5' border='1px' borderColor='gray.200' mb={{ base: 3 }} />
                                 <Box>

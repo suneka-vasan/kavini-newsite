@@ -12,7 +12,7 @@ function DiscoverSection() {
                     </GridItem>
                     <GridItem display={{ md: 'flex' }} alignItems='center' justifyContent='center'>
                         <GridItem>
-                            <Heading mb={{ base: 3, md: 5 }} color='brand' fontSize={{ base: "22px", md: "30px" }}>Discover Our<br />
+                            <Heading mb={{ base: 3, md: 5 }} color='brand' fontSize={{ base: "22px", md: "30px" }} mt={{ base: 5, md: 0 }}>Discover Our<br />
                                 Saree Collections</Heading>
                             <Text mb='5' color='black' lineHeight={{ base: "18px", md: 1.5 }} fontSize={{ base: "14px", md: "16px" }}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </Text>
                             <PrimaryButtonLg title='Explore More!' path='/about' />
