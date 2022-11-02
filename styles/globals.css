@@ -28,7 +28,3 @@ h6 {
 .Bannertext p, h1, h2, h3, .buttonText {
       font-family: 'merriweather', sans-serif !important;
 }
-.responsive-img{
-  width: 100%;
-    height: auto;
-}
