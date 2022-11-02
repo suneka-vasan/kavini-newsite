@@ -11,7 +11,7 @@ function BannerSection() {
                 style={{
                     backgroundImage: 'url(/Banner_1.jpg)',
                     backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat'
+                    backgroundRepeat: 'no-repeat',
                 }} >
                 <Box pos={"absolute"} top={{ base: 28, md: 72 }} left={{ base: 10, md: 80 }} className="Bannertext">
                     <Text color="#033303" pb={0}>Weekend Sale!</Text>
