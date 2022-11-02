@@ -8,7 +8,7 @@ function BannerSection() {
                 align={"center"}
                 h={{ base: 400, md: 614 }}
                 style={{
-                    backgroundImage: 'url(/Banner_1.jpg)',
+                    backgroundImage: 'url(/banner_1.jpg)',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     width: 'container.xl',
