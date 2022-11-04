@@ -8,7 +8,8 @@ function BannerSection() {
             style={{
                 backgroundImage: 'url(/banner_1.jpg)',
                 backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat'
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'right'
             }} >
             <Box maxW='container.xl' mx={{ base: 0, md: 'auto' }} pt={{ base: 36, md: 60 }} pl={{ base: 5, md: 4, lg: 0 }}>
                 <Text color="#033303" pb={0}>Weekend Sale!</Text>
