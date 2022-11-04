@@ -2,15 +2,13 @@ import React from 'react'
 import {
     Drawer,
     DrawerBody,
-    DrawerFooter,
-    DrawerHeader,
     DrawerOverlay,
     DrawerContent,
     DrawerCloseButton,
-    RadioGroup, Button, Stack, Radio, Input, useDisclosure, Link, Image, IconButton, Flex, Box, Spacer, HStack, VStack
+    useDisclosure, Link, Image, IconButton, Flex, Box, Spacer, HStack, VStack
 } from '@chakra-ui/react'
-import { BsSearch, BsHeart, BsBag, BsFacebook, BsTwitter, BsInstagram } from 'react-icons/bs'
-import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
+import { BsSearch, BsHeart, BsBag } from 'react-icons/bs'
+import { HamburgerIcon } from '@chakra-ui/icons'
 
 function Navbar() {
     const { isOpen, onOpen, onClose } = useDisclosure()
@@ -20,7 +18,6 @@ function Navbar() {
             <Box w='100%' bgColor='#033303'>
                 <Box maxW='container.xl' mx={{ md: 'auto' }}>
                     {/* Desktop */}
-
                     <Flex
                         display={['none', 'none', 'flex', 'flex']}
                         color='#DDAC66'>
@@ -82,7 +79,6 @@ function Navbar() {
                 <DrawerOverlay />
                 <DrawerContent>
                     <DrawerCloseButton />
-
                     <DrawerBody>
                         <VStack>
                             <Link href="/">
@@ -99,7 +95,6 @@ function Navbar() {
                             </Link>
                         </VStack>
                     </DrawerBody>
-
                 </DrawerContent>
             </Drawer>
         </>
