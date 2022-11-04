@@ -13,7 +13,7 @@ function BannerSection() {
                     backgroundRepeat: 'no-repeat',
                     width: 'container.xl',
                 }} >
-                <Box className="Bannertext" ml={{ base: 10, md: 80 }}>
+                <Box maxW='container.xl'>
                     <Text color="#033303" pb={0}>Weekend Sale!</Text>
                     <Heading color="#033303" pb={5}>Discover Spring Collection</Heading>
                     <PrimaryButtonLg title='Shop Now' path='/about' />

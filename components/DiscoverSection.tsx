@@ -28,7 +28,7 @@ function DiscoverSection() {
                             <PrimaryButtonLg title='Explore More!' path='/about' />
                         </GridItem>
                     </GridItem>
-                    <GridItem >
+                    <GridItem>
                         <Image src='/Jewel_1.jpg' alt='Saree' width='612' height='422' />
                     </GridItem>
                 </SimpleGrid>

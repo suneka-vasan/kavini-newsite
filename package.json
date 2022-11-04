@@ -15,8 +15,6 @@
     "@emotion/styled": "^11.10.5",
     "@fontsource/maven-pro": "^4.5.12",
     "@fontsource/merriweather": "^4.5.14",
-    "@fontsource/open-sans": "^4.5.13",
-    "@fontsource/raleway": "^4.5.11",
     "@types/react-slick": "^0.23.10",
     "framer-motion": "^7.6.2",
     "next": "13.0.0",
